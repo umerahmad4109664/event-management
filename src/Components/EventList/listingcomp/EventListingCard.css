@@ -1,0 +1,71 @@
+.main456{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 20px;
+    background-color: rgb(244, 248, 253);
+    /* padding-top: 5%; */
+    padding: 5% 10px;
+    gap: 10px;
+}
+.list-card{
+    width:350px ;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(227, 224, 224);
+}
+.event-img{
+    width: 330px;
+}
+.event-date{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    width: 70px;
+    top: 3px;
+    left: 5px;
+    /* transform: translate(10px,-220px); */
+    background: linear-gradient(to bottom right, #ff3e00 , #f1a400);
+}
+.lower-card-part{
+    padding: 10px;
+}
+.name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.ticket-price{
+    color: #f1a400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.flex-678{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.register-event-btn{
+    text-align: center;
+    /* margin-top: 10px; */
+    margin: 20px auto;
+    transform: translateX(20%);
+    padding: 15px 40px;
+    box-sizing: content-box;
+    background: linear-gradient(to bottom right, #ff3e00 , #ffbe30);
+    font-weight: 500;
+}
+.icon-col-400{
+    background-color: #f1a400 !important;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    color: white;
+}
+.event-location{
+    color: gray;
+}

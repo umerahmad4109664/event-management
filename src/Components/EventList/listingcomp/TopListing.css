@@ -1,0 +1,77 @@
+.top{
+    background: url(https://jthemes.net/themes/html/harmony-event/assets/images/breadcrumb/0.breadcrumb-bg.jpg);
+    height: 165px;
+    padding: 80px 0;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* justify-content: space-around; */
+}
+.h3{
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+.event{
+ text-align: center;
+ transform: translateY(-30px);
+ font-size: 42px;
+}
+.event span{
+    color: #ffbe30;
+}
+.second{
+    background: url(https://jthemes.net/themes/html/harmony-event/assets/images/special-offer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin: ;*/
+    padding: 60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-sizing: content-box; */
+}
+.h2-heading{
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+.discount{
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffbe30;
+}
+.h2-span-2{
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-size: 45px; */
+}
+.para-second{
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+.event-button{
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: white;
+    color: #ffbe30;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.event-button:hover{
+    background-color: #ffbe30;
+    color: white;
+    
+}
+@media screen and (max-width: 1150px) {
+ .second{
+    flex-direction: column;
+    height: fit-content;
+ }
+ .event-button{
+    margin-top: 20px;
+ }
+ 
+}

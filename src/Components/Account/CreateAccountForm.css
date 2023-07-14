@@ -1,0 +1,57 @@
+
+.upper-account-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    margin: 0px 150px;
+    /* background-color: white; */
+    box-sizing: border-box;
+}
+.account-logo{
+    color: black;
+}
+.main123{
+    margin-top: 50px;
+}
+.line{
+    margin:20px 100px;
+    font-weight: 700;
+    background-color: rgb(234, 227, 227);   
+}
+.main-1234{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.account-signup{
+    padding: 30px;
+    margin: 30px 180px;
+    background-color: rgb(235, 234, 231);
+    box-sizing: content-box;
+}
+.qw-12{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+input{
+    width: 100%;
+}
+.create-acc{
+    margin: 10px 0;
+}
+label{
+    text-align: left;
+    margin-top: 10px;
+}
+.btn-acc-submit{
+    margin: 20px 0;
+    background-color: rgb(236, 110, 7);
+}
+.account-data{
+    text-align: right;
+}
