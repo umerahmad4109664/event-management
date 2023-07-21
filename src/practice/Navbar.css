@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #333;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .navbar.active {
+    right: 0;
+  }
+  
+  .navbar-toggle {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggle.active .hamburger {
+    transform: rotate(45deg);
+  }
+  
+  .navbar-toggle.active .hamburger::before {
+    transform: translateY(10px) rotate(45deg);
+  }
+  
+  .navbar-toggle.active .hamburger::after {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .navbar-item {
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-item:hover {
+    background-color: #555;
+  }
+  

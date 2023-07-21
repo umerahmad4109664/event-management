@@ -53,3 +53,16 @@
 .h5-heading-type span{
     font-weight: 700;
 }
+@media only screen and (max-width: 1020px) {
+.flex-1{
+    flex-direction: column;
+    gap: 20px;
+}
+.event-type-1{
+    flex-wrap: wrap;
+}
+.event-type-2{
+    flex-wrap: wrap;
+}
+
+}

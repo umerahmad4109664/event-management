@@ -3,8 +3,8 @@ import Carousel from '../practics/Carousel'
 
 const Home = () => {
   return (
-   <> <div>Home</div>
-    {/* <Carousel/> */}
+   <> 
+    <Carousel/>
     </>
   )
 }

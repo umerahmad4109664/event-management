@@ -7,7 +7,7 @@ const TopListing = () => {
   return (
 <>
 <div className="top">
-  <h3 className='h3'>Plan a trip</h3>
+  <h3 className='h3'>Plan an Event</h3>
   <h1 className='event'>Event <span>listing</span></h1>
 </div>
 <div className="second">

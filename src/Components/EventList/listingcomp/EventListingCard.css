@@ -16,6 +16,7 @@
 }
 .event-img{
     width: 330px;
+    height: 200px;
 }
 .event-date{
     position: absolute;
@@ -24,8 +25,8 @@
     text-transform: uppercase;
     color: white;
     font-weight: 600;
-    width: 70px;
-    top: 3px;
+    width: max-content;
+    top: 5px;
     left: 5px;
     /* transform: translate(10px,-220px); */
     background: linear-gradient(to bottom right, #ff3e00 , #f1a400);
@@ -35,12 +36,14 @@
 }
 .name{
     font-weight: bold;
+    text-transform: capitalize;
     font-size: 25px;
 }
 .ticket-price{
     color: #f1a400;
     font-size: 15px;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 .flex-678{
     display: flex;
@@ -68,4 +71,99 @@
 }
 .event-location{
     color: gray;
+    text-transform: capitalize;
+}
+.popup-heading{
+    margin-top: 30px;
+    margin-bottom:30px ;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    /* background-color: black; */
+    background: linear-gradient(to bottom right, #ff3e00 , #ffbe30);
+    padding: 10px 0;
+    
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.popup-img{
+    padding: 0 100px;
+    
+}
+.close-popup{
+    float: right;
+    color: #f1a400;
+    /* background-color: none; */
+    background: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+.popup-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.popup-location{
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(206, 203, 203);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.popup-description{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    color: rgb(56, 55, 55);
+    padding: 0 10px;
+    text-align: justify;
+}
+.popup-registration{
+    text-align: center;
+    /* margin-top: 10px; */
+    margin: 20px auto;
+    transform: translateX(20%);
+    padding: 15px 40px;
+    box-sizing: content-box;
+    background: linear-gradient(to bottom right, #ff3e00 , #ffbe30);
+    font-weight: 700;
+    text-transform: uppercase;
+    /* transform: translatex(150%); */
+    display: block;
+  }
+  .popup a{
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(144, 142, 142);
+    border-radius: 10px;
+  }
+  @media only screen and (max-width: 1250px) {
+  .main456{
+    grid-template-columns: 1fr 1fr ;
+
+  }
+}
+@media only screen and (max-width: 850px) {
+    .main456{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 }
